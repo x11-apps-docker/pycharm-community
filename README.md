@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/x11-apps-docker/pycharm-community.svg?branch=master)](https://travis-ci.org/x11-apps-docker/pycharm-community)
+
 ### Pycharm in Docker
 
 ## Add alias
