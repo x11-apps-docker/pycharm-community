@@ -1,0 +1,7 @@
+services:
+  - docker
+
+before_install:
+        docker build --no-cache -t x11apps/pycharm-community .
+        echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+        docker push x11apps/pycharm-community
